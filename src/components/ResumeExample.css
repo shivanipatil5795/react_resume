@@ -1,0 +1,134 @@
+.hero-container {
+    padding: 5rem 10rem;
+  }
+
+  .resume-formats {
+    text-align: center;
+   
+  }
+  
+  .resume-examples {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem; /* Add space between resume items */
+    margin-top: 2rem;
+  }
+  
+  .resume-item {
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .resume-item img {
+    width: 400px;
+    height: 600px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  .resume-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .resume-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .resume-formats h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+    /*4th*/
+
+  /* src/components/FAQ.css */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  
+  .faq-section {
+    margin-bottom: 30px;
+  }
+  
+  .faq-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .faq-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+ 
+  
+  
+  
+  .see-more-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .see-more-button:hover {
+    background-color: #ddb347;
+  }
+  
+  .faq-divider {
+    border: 0;
+    height: 1px;
+    background: #007BFF;
+    margin: 20px 0;
+  }
+  
+  
+  /**5th***/
+  
+  
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background: url('../assets/blue.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .cta-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .cta-button:hover {
+    background-color: #f0f0f0;
+  }
+  

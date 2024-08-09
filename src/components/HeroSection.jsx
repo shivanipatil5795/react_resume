@@ -12,6 +12,13 @@ import resumeImage8 from '../assets/temp.jpeg';
 import './HeroSection.css';
 
 const HeroSection = () => {
+
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   
   const navigate = useNavigate(); 
 
@@ -37,11 +44,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="hero-section">
-
-
-
-     
+    <section className="hero-section hero-container">     
     <h2>How Can We Help You?</h2>
       <div className="features">
           <div className="feature">
@@ -108,9 +111,9 @@ const HeroSection = () => {
     </div>
 
     <br></br>
-
-
     </div>
+
+
       <div className="row content">
         <div className="col-lg-6 text-left">
           <h2>Try Our Easy-To-Use Resume Builder</h2>
@@ -126,6 +129,7 @@ const HeroSection = () => {
         </div>
       </div>
     <br></br>
+
 
     <div className="template-section">
       <div className="template-content">
@@ -181,13 +185,111 @@ const HeroSection = () => {
       <p>Be sure to read our article on <a href="#">what to put on a resume</a> to get useful tips while making your resume with Zety, or check out <a href="#">how to write a resume, step by step</a>.</p>
       <hr />
 
-    <div className="zety-info-container">
-      
-      
+      <div className="info-section">
+      <div className="info-item">
+        <h2>Is Zety safe to use?</h2>
+        <p>
+          <strong>Yes, Zety is a legit business, you can check it out on the <a href="#">About Zety page</a>.</strong> Every year, our resume maker, guides and examples help millions of job seekers in the world to find their dream jobs. The website and application are safe thanks to a secure SSL https encrypted connection. Your personal data is processed according to stringent policies you can learn more about in the <a href="#">terms of use</a>, <a href="#">privacy policy</a>, and <a href="#">cookie policy</a>.
+        </p>
+      </div>
+      <div className="separator"></div>
+      <div className="info-item">
+        <h2>Can I contact Zety easily if I need help with my account?</h2>
+        <p>
+          Our customer happiness agents are available to assist you with any issue you may encounter regarding the website, our applications or your Zety account. From solving problems you might encounter to managing your subscription, we are here to help. <a href="#">Visit our Contact page</a> to know when our call center is open, to send us a message via email or fill a contact form. We will get back to you as soon as possible.
+        </p> <div className="separator"></div>
+        {isExpanded && (
+          <><div className="extra-content">
+                <h2>Does Zety have resume examples that I can look at?</h2>
+                <p>
+                  Zety has more than 500 free resume examples for you to read while making your own resume. All of our examples were written by Certified Professional Resume Writers (CPRW), after extensive research. You can use our resume examples and guides while making your resume with Zety to make the process of resume writing even faster and easier.
+                </p>
+                <p>
+                  While we tried to cover as many professions as possible to ensure you will always find the sample resume you need, there’s a chance that your specific job isn’t on our list. If that’s the case, we encourage you to read our guide on the general resume, where you will learn how to write a more universal document.
+                </p>
+              </div><div className="separator"></div>
+              <div className="extra-content">
+                <h2>Can Zety review my resume when I’ve finished making it?</h2>
+                <p>
+                The Zety Resume Maker includes a very useful and popular feature called Resume Check. Throughout the resume making 
+                process, our software will read your document and compare it against all other similar resumes in our database, in
+                 real-time. Not only will you know where your resume might be under-optimized, but our resume check tool will also
+                  give you a quality score and specific tips on what to improve.
+                </p>
+                
+              </div><div className="separator"></div>
+              
+              <div className="extra-content">
+                <h2>Are resumes made with Zety ATS-friendly?</h2>
+                <p>
+                All of Zety’s templates, be it for resumes, CVs, or cover letters, are ATS-compliant. You can safely send the resume you’ve made 
+                with Zety to any company, anywhere, and the Applicant Tracking Systems will be able to read and understand your documents. 
+                If you’re new to that concept, don’t hesitate to read our guide on ATS resume templates and why they are key to a successful job hunt!
+                </p>
+                
+              </div><div className="separator"></div>
+              
+              <div className="extra-content">
+                <h2>Which resume template should I use in 2024?</h2>
+                <p>
+                Zety only offers Modern Resume Templates. They are all available in dozens of color schemes, and you can customize 
+                their structure, fonts, margins, and so on. A resume template should be easy to fill in and real, while eye-catching. 
+                At Zety, we have carefully crafted every single of our templates to make sure they match both the recruiters’ and the 
+                candidates’ preferences. For more details, read our article describing what a resume should look like in 2024.
 
-<button className="toggle-button" onClick={toggleExpanded}>
-        {expanded ? 'See less' : 'See more'}
-      </button>
+                 Every change you make in the resume will automatically adjust the contents of your document for you, so you never have
+                  to worry about breaking anything.
+                </p>
+                
+              </div><div className="separator"></div>
+              
+              <div className="extra-content">
+                <h2>Why do I need a different resume for every job application?</h2>
+                <p>
+                Recruiters and hiring managers typically receive hundreds of applications per day. To filter out all the applications 
+                that do not meet their needs, they use application tracking software that eliminates all resumes that are not tailored
+                 for specific keywords included in the job ad. But even without ATS apps, they can quickly differentiate a generic
+                 resume copy-pasted and sent to every single company around from a resume tailored to their job ad.
+
+                That’s why in your resume, you have to highlight skills and experiences which directly address the company’s needs 
+                listed in the job description. To make the cut, you have to send a different resume every time.
+
+                In the Zety online resume maker you can quickly duplicate your resume and adjust it to a specific job title in a few clicks!
+                </p>
+               
+              </div><div className="separator"></div>
+              
+              <div className="extra-content">
+                <h2>Should I download my new resume in PDF or Word?</h2>
+                <p>
+                With Zety, you can make a resume for free, and download it in the format of your choice. The most common formats 
+                for a resume are PDF and Word. Always opt for the PDF resume if you are sending your document right away. It will 
+                ensure your resume layout remains intact on any device and software. Download your resume in Word if you want to have 
+                a copy of it that you can edit later.
+
+                Note that with your Zety account, you can keep as many copies of your resume as you need online, enabling you to update or edit 
+                it for another job application, anytime & anywhere. For more information, read about Word VS PDF resume formats
+                </p>
+              
+              </div><div className="separator"></div>
+              
+              <div className="extra-content">
+                <h2>Do I need a cover letter for my resume?</h2>
+                <p>
+                Yes, you need a cover letter for your resume. Despite what many candidates believe, a cover letter is still necessary in 2024. 
+                In this document, you can elaborate on your skills and work experience listed in the resume. It is the best way to complement your 
+                resume and provide details of your achievements and abilities. Besides, attaching a covering letter to your job application is a 
+                great sign of your motivation to get the job. Even if you’ve never written one in the past, you can still do it quickly. Read our
+                 guide on how to write a cover letter, check our dozens of free cover letter examples, or 
+                simply go directly to our cover letter builder.
+                </p>
+               
+              </div><div className="separator"></div></>
+        )}
+        <button className="toggle-button" onClick={toggleExpand}>
+          {isExpanded ? 'See less' : 'See more'}
+        </button>
+      </div>
     </div>
     </div>
 

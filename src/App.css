@@ -1,4 +1,4 @@
-.container {
+/*.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,7 +175,7 @@ h4 {
 /**/
 
 
-/*try*/
+/*try*//*
 .content {
   background-color: #3c7ac7;
   color: white;
@@ -205,7 +205,7 @@ h4 {
   max-width: 100%;
   height: auto;
 }
-/* src/ResumeBuilder.css */
+/* src/ResumeBuilder.css *//*
 .row {
   display: flex;
   gap: 20px;
@@ -240,7 +240,7 @@ h4 {
 
 
 /***/
-/* ZetyInfo.css */
+/* ZetyInfo.css *//*
 .zety-info-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -279,7 +279,7 @@ h4 {
 }
 
 
-/***/
+/***//*
 .faq-section {
   padding: 20px;
   text-align: left;
@@ -353,7 +353,7 @@ h4 {
 
 
 
-/***/
+/***/ /*
 .toggle-button:hover {
   background-color: #0056b3;
 }
@@ -365,7 +365,7 @@ h4 {
 }
 
 .headline {
-  font-size: 2.5rem; /* Decreased font size */
+  font-size: 2.5rem; /* Decreased font size *//*
   font-weight: bold;
   color: #1e2a78; 
   margin-bottom: 10px;
@@ -382,9 +382,9 @@ h4 {
   background-color: #1e2a78; 
   color: white;
   border: none;
-  padding: 15px 25px; /* Decreased padding */
+  padding: 15px 25px; /* Decreased padding */ /*
   border-radius: 30px; 
-  font-size: 2em; /* Decreased font size */
+  font-size: 2em; /* Decreased font size *//*
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -393,7 +393,7 @@ h4 {
   background-color: #141c56; 
 }
 
-/**re-temp & re-eg*/
+/**re-temp & re-eg*//*
 
 
 .template-section {
@@ -429,6 +429,6 @@ h4 {
 
 .template-button:hover {
   background-color: #001a66; 
-}
+}*/
 
 

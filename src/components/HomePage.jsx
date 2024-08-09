@@ -10,7 +10,10 @@ const HomePage = () => {
     navigate('/resume-builder');
   };
 
-  return (<section>
+  return (
+    <div className='hero-container'>
+  <section>
+    
     <div className="container">
     <h1>Professional Resume & Cover Letter Tools For Any Job</h1>
     <p>Create a job-winning resume in minutes with our easy-to-use builder.</p>
@@ -46,6 +49,8 @@ const HomePage = () => {
     </div>
   </div>
   </section>
+  </div>
+  
   );
 };
 

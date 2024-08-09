@@ -1,0 +1,103 @@
+.hero-container {
+    padding: 5rem 10rem;
+  }
+
+
+  /* Set a light blue background for the heading */
+.media-mentions h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #111; /* Text color for contrast */
+}
+
+/* Adjust spacing on the left and right */
+.media-mentions {
+    max-width: 1000px; /* Increased max-width */
+    margin: 40px auto;
+    padding: 0 40px; /* Added padding on the left and right */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.mention-item strong {
+    color: #000;
+    display: inline-block;
+    width: 180px; /* Adjust width as needed for spacing */
+}
+
+
+.media-mentions .intro {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.media-mentions p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.media-mentions a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.media-mentions a:hover {
+    text-decoration: underline;
+}
+
+.mentions-list {
+    margin-top: 30px;
+}
+
+.mention-item {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.mention-item strong {
+    color: #000;
+}
+
+.mention-item a {
+    color: #004080;
+    text-decoration: none;
+}
+
+.mention-item a:hover {
+    text-decoration: underline;
+}
+
+/**2nd**/
+
+.companies-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start */
+    padding: 20px 0; /* Add padding to the top and bottom */
+  }
+  
+  .companies-section p {
+    margin-right: 40px; /* Increase margin to match the spacing */
+    font-size: 18px;
+    color: #4e86e7;
+  }
+  
+  .companies-logos {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Adjust the gap between logos */
+  }
+  
+  .companies-logos img {
+    height: 40px;
+    filter: grayscale(100%);
+  }
+  
