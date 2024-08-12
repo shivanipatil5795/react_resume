@@ -3,7 +3,7 @@
   }
 
 
-  /* Set a light blue background for the heading */
+  
 .media-mentions h1 {
     font-size: 32px;
     font-weight: bold;
@@ -14,7 +14,7 @@
     color: #111; /* Text color for contrast */
 }
 
-/* Adjust spacing on the left and right */
+
 .media-mentions {
     max-width: 1000px; /* Increased max-width */
     margin: 40px auto;

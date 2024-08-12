@@ -95,7 +95,7 @@ const HeroSection = () => {
         </div>
 
 <br></br><br></br>
-
+          {/* 2nd part */}
       <div className="main-section">
     <div className="template-section">
       <div className="template-content">
@@ -114,6 +114,7 @@ const HeroSection = () => {
     </div>
 
 
+{/* 3rd part */}
       <div className="row content">
         <div className="col-lg-6 text-left">
           <h2>Try Our Easy-To-Use Resume Builder</h2>
@@ -130,6 +131,8 @@ const HeroSection = () => {
       </div>
     <br></br>
 
+
+{/* 4th part */}
 
     <div className="template-section">
       <div className="template-content">
@@ -148,6 +151,7 @@ const HeroSection = () => {
    
 
 
+{/* 5th part */}
     
     <div className="faq-section">
       <h2>Frequently Asked Questions about Zety’s Website and Builder</h2><br></br>
@@ -294,6 +298,7 @@ const HeroSection = () => {
     </div>
 
     
+    {/* last part */}
     <div className="transform-career-container">
       <h2 className="headline">
         Transform your career today and<br /> join thousands of satisfied users

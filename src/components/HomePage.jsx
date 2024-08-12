@@ -43,6 +43,8 @@ const HomePage = () => {
       </div>
     </div>
     
+
+    {/* 2nd image */}
     <div className={`resume-preview `}>
       <img src="https://cdn-images.zety.com/images/zety/landings/home/hero-desktop@3x.webp" alt="Resume Preview" />
  

@@ -5,6 +5,7 @@ import backgroundImage from '../assets/resumehelp.jpeg';
 const ResumeHelp = () => {
   return (
     <><div className='hero-container'>
+        {/* 1st section */}
     <div className="resume-help">
           <div className="content-help">
               <h1 className="title">Resume Help</h1>
@@ -17,6 +18,7 @@ const ResumeHelp = () => {
           </div>
       </div>
 
+{/* 2nd section */}
       <div className="header">
       <div className="logos">
         <span className="logo">theguardian</span>
@@ -40,6 +42,7 @@ const ResumeHelp = () => {
     </div>
       
       
+      {/* 3rd section */}
       <div className="resume-help-section">
               <div className="card-container">
                   <div className="card">
@@ -1279,7 +1282,7 @@ const ResumeHelp = () => {
               </div>
           </div>
           
-          
+          {/* last */}
           <div className="subscription-form">
       <h2>Don't miss out on exclusive stories that will supercharge your career!</h2>
       <p>Get a weekly dose of inspiration delivered to your inbox</p>

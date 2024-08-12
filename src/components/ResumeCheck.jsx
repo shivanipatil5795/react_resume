@@ -12,11 +12,7 @@ import { faFileAlt, faSpellCheck, faListAlt, faChartLine, faPencilRuler, faStopw
 
 const Resumecheck = () => {
 
-  const [showMore, setShowMore] = useState(false);
 
-  const handleToggle = () => {
-    setShowMore(!showMore);
-  };
 
     const navigate = useNavigate();
 
@@ -25,6 +21,7 @@ const Resumecheck = () => {
       };
   return <>
   <div className='hero-container'>
+    {/* 1st part */}
 <div className="ats-resume-checker">
       
       <div className="content">
@@ -42,6 +39,8 @@ const Resumecheck = () => {
     </div>
 
 
+
+{/* 2nd part */}
 <div className="main-container">
       <div className="main-content">
         <h1>Why Should You Use a Resume Scanner?</h1>
@@ -67,6 +66,7 @@ const Resumecheck = () => {
     </div>
 
 
+{/* 3rd part */}
     <div className="ats-container">
       <h1>What Our ATS Resume Checker Will Improve</h1><br></br>
       <div className="grid-container">
@@ -147,6 +147,7 @@ const Resumecheck = () => {
     </div>
 
 
+{/* 4th part */}
 
     <div className="ats-resume-checker">
     <div className="image-container">
@@ -171,6 +172,7 @@ const Resumecheck = () => {
   </div>
 </div>
 
+ {/* 5th part */}
 
 <div className="ats-resume-checker">
 <div className="content">
@@ -190,98 +192,8 @@ const Resumecheck = () => {
   </div>
 </div>
 
-<div className="faq-container">
-      <h1>Frequently Asked Questions about ATS Resume Checker</h1>
-      <div className="faq-section">
-        <h2>What is a resume check?</h2>
-        <p>
-          A resume check is online software that scans your resume and instructs how to improve your resume. 
-          Some of these tools come with a resume builder, like ours, so you can choose one that both crafts and 
-          updates your already made resume. You may need to buy a small fee or subscribe to the free trials.
-          Our resume checker will automatically scan your document to look for mistakes and opportunities 
-          and compare your application to others in their database. You'll find out what resume sections and 
-          keywords need work. The resume review is free if you decide to make a resume with our builder.
-        </p>
-      </div>
-      <hr className="faq-divider" />
-      <div className="faq-section">
-        <h2>What is the best ATS resume checker?</h2>
-        <p>
-          The best resume review services are:
-          <ul>
-            <li>Zety</li>
-            <li>LiveCareer</li>
-            <li>Resume Worded</li>
-            <li>Jobscan</li>
-            <li>ZipJob</li>
-            <li>Kickresume</li>
-            <li>CakeResume</li>
-            <li>Enhancv</li>
-            <li>ResumeGo</li>
-            <li>BeamJobs</li>
-          </ul>
-          If you'd like to know more about the best online resume builders or resume writing services, head over to our resources.
-        </p>
-      </div>
-      <hr className="faq-divider" />
-      <div className="faq-section">
-        <h2>How can I check my resume score for free?</h2>
-        <p>
-          To access our free resume critique services, use our builder to create your resume. Our resume writers 
-          have designed 18 professional resume templates customized to fit your needs. You can also upload your 
-          own resume to be formatted crisply and still make your resume stand out with our resume checker.
-        </p>
-      </div>
-      <hr className="faq-divider" />
-      <div className="faq-section">
-        <h2>How do I scan my resume for keywords?</h2>
-        <p>
-          When you have access to our resume software, upload your resume or simply select the one you've just 
-          crafted with the help of our free resume builder. The software will automatically detect the best 
-          keywords for your resume. If this is not already your field of expertise, our resume builder suggests 
-          the top job descriptions listing the top keywords that the recruiter should find in your resume.
-        </p>
-      </div>
-      <hr className="faq-divider" />
-      {showMore && (
-        <>
-          <div className="faq-section">
-            <h2>What is a resume score?</h2>
-            <p>
-              You receive a resume score once the Resume Worded scanner checks the contents of your resume with those of the job description. 
-              You can also get it from a resume review tool that scans your resume for necessary information and crafted sections.
-            </p>
-          </div>
-          <hr className="faq-divider" />
-          <div className="faq-section">
-            <h2>What is a good ATS score for a resume?</h2>
-            <p>
-              80%.<br />
-              A resume must meet this threshold to pass the ATS something. If you don’t know what an ATS is, you can get advice on ATS friendly resumes. 
-              If you have less than 80%, your resume might not be picked up by bots. To make sure you hit this score, check out our best resume templates and pick one.
-              Then, you'll only have to worry about hitting the right keywords.
-            </p>
-          </div>
-          <hr className="faq-divider" />
-          <div className="faq-section">
-            <h2>Is a resume review worth it?</h2>
-            <p>
-              Yes.<br />
-              You may not even realize how much having an ATS compliant resume matters. Basically, your job depends on it. 
-              And this is because your resume will land at a recruiter’s desk that will filter the software passes it and gives you the green light. 
-              Tools like our resume checker can help you with your resume that does not look like the above ones.
-              Besides, even if the company doesn’t use any software, they’ll still just hire someone that has the best resume, 
-              and having a great resume score ensures yours is among the best.
-            </p>
-          </div>
-          <hr className="faq-divider" />
-        </>
-      )}
-      <button className="see-more-button" onClick={handleToggle}>
-        {showMore ? 'See Less' : 'See More'}
-      </button>
-    </div>
 
+    {/* last */}
 
     <div className="cta-container">
       <h1>Let us help you make a great resume</h1>

@@ -11,6 +11,7 @@ import MediaMentions6 from '../assets/orange.jpeg';
 const MediaMentions = () => {
     return (
         <><div className='hero-container'>
+            {/* 1st section */}
             <div className="media-mentions">
                 <h1>Zety's Notable Media Mentions</h1>
                 <p className="intro">
@@ -127,6 +128,8 @@ const MediaMentions = () => {
                 </div>
             </div>
 
+
+{/* 2nd section */}
             <div className="companies-section">
                 <p>Our customers have been hired by:*</p>
                 <div className="companies-logos">
